@@ -8,6 +8,7 @@ Installation
 ============
 
 	For standard Unix configuration/installation instructions, see the INSTALL file.
+	For ubuntu 16.04 Xenial consider using pipelight plugin supporting Silverlight 5.1 
 
 Requirements
 ============
@@ -41,10 +42,14 @@ Requirements
 	The revision the codecs currently are at is: 15e2b1b2 (only applicable to buildbots
 	and developers on the Moonlight team). For SVN users, the revision is: 10364
 
+	The below gnome-desktop change recommendatios are not advised for Ubuntu 16.04 64-bit
+	as it causes login loop and will make reinstallation of OS a serious option.
+	
 	The package wnck-sharp is also required, it can be found in the gnome-desktop-sharp
 	repository on github:
 		https://github.com/mono/gnome-desktop-sharp
 	Alternatively, on ubuntu/debian, the gnome-desktop-sharp2 package provides it.
+	
 
 Compiling Mono for Moonlight
 ============================
